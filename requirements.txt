@@ -1,0 +1,20 @@
+# Core libraries
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+
+# NLP processing
+nltk
+langdetect
+deep-translator
+
+# Visualization
+matplotlib
+seaborn
+wordcloud
+
+# Optional but useful
+openpyxl        # For reading Excel files
+textblob        # For extra sentiment analysis or text processing
