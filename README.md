@@ -1,4 +1,4 @@
-#Sentiment Analysis System
+*Sentiment Analysis System*
 
 A production-ready Sentiment Analysis system built using:
 
@@ -62,7 +62,7 @@ Sentiment-Analysis/
 
 Clone the repository
 
-git clone https://github.com/yourusername/sentiment-analysis.git
+git clonehttps://github.com/shubham20-web/Sentiment_Analysis_
 
 Move to the project directory
 
