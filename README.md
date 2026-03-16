@@ -1,10 +1,6 @@
-*Sentiment Analysis using Machine Learning
+#Sentiment Analysis System
 
-A Machine Learning based Sentiment Analysis system built using Python, NLP, and Scikit-learn to classify text into positive, negative, or neutral sentiment.
-
-The project demonstrates a complete Natural Language Processing pipeline including text preprocessing, feature extraction, model training, and evaluation.
-
-Tech Stack
+A production-ready Sentiment Analysis system built using:
 
 Python
 
@@ -12,113 +8,63 @@ NLTK
 
 Scikit-learn
 
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Features
-
-Text preprocessing using NLP techniques
-
-Stopword removal and text cleaning
-
-Lemmatization using NLTK
-
-TF-IDF feature extraction
-
-Machine Learning model training
-
-Sentiment classification
-
-Model evaluation using accuracy score
-
-End-to-end NLP pipeline
-
-Architecture
-
-Text Data
-↓
-Text Preprocessing
-↓
-Tokenization & Stopword Removal
-↓
 TF-IDF Vectorization
-↓
-Train/Test Split
-↓
+
+Support Vector Machine (SVM)
+
+Pandas & NumPy
+
+This application processes textual data and predicts the sentiment of the text (Positive, Negative, or Neutral).
+
+It uses Natural Language Processing (NLP) techniques to clean and transform text, then applies a Machine Learning classification model to determine sentiment.
+
+🔥 Features
+
+📝 Text Preprocessing Pipeline
+
+🔎 Stopword Removal and Lemmatization
+
+📊 TF-IDF Feature Extraction
+
+🤖 Machine Learning Sentiment Classification
+
+⚡ Efficient SVM Model for Text Classification
+
+📈 Model Evaluation using Accuracy Score
+
+🧠 NLP-based Text Understanding
+
+🚀 Easy to Extend for Real-world Applications
+
+🏗 Architecture
+
+Text Input
+⬇
+Text Cleaning & Preprocessing
+⬇
+Tokenization & Stopword Removal
+⬇
+TF-IDF Vectorization
+⬇
+Train/Test Data Split
+⬇
 SVM Model Training
-↓
+⬇
 Sentiment Prediction
 
-Project Workflow
-1 Data Loading
-
-The dataset containing text and sentiment labels is loaded using Pandas.
-
-import pandas as pd
-data = pd.read_excel("dataset.xlsx")
-2 Text Preprocessing
-
-Steps performed:
-
-Lowercasing
-
-Removing punctuation
-
-Tokenization
-
-Stopword removal
-
-Lemmatization
-
-Libraries used:
-
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-3 Feature Engineering
-
-Text data is converted into numerical vectors using TF-IDF Vectorizer.
-
-from sklearn.feature_extraction.text import TfidfVectorizer
-
-TF-IDF helps represent the importance of words in a document.
-
-4 Train Test Split
-
-The dataset is split into training and testing data.
-
-from sklearn.model_selection import train_test_split
-5 Model Training
-
-A Support Vector Machine (SVM) classifier is used for sentiment classification.
-
-from sklearn.svm import SVC
-
-SVM performs well for text classification tasks.
-
-6 Model Evaluation
-
-The model performance is evaluated using accuracy score.
-
-from sklearn.metrics import accuracy_score
-Project Structure
+📂 Project Structure
 Sentiment-Analysis/
 │
 ├── Sentiment_Analysis_New.ipynb
 ├── dataset.xlsx
 ├── README.md
-Installation
+⚙ Installation
 
 Clone the repository
 
 git clone https://github.com/yourusername/sentiment-analysis.git
 
-Move to project directory
+Move to the project directory
 
 cd sentiment-analysis
 
@@ -126,30 +72,20 @@ Install dependencies
 
 pip install pandas numpy nltk scikit-learn matplotlib seaborn
 
-Run Jupyter Notebook
+Run the notebook
 
 jupyter notebook
-
-Open:
-
-Sentiment_Analysis_New.ipynb
-Future Improvements
+📈 Future Improvements
 
 Implement Deep Learning models (LSTM / GRU)
 
-Use BERT or Transformer models
+Use Transformer models like BERT
 
-Deploy model using Flask or FastAPI
+Deploy using Flask or FastAPI
 
 Build a web application for sentiment prediction
 
-Improve dataset size for better accuracy
-
-Author
+👨‍💻 Author
 
 Shubham Dhadse
-
-Aspiring Data Scientist
-Interested in Machine Learning | NLP | Generative AI
-
-⭐ If you like this project, feel free to star the repository.
+Aspiring Data Scientist | Machine Learning Enthusiast
